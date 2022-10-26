@@ -13,15 +13,15 @@ public class FindTemp {
         Scanner input = new Scanner (System.in);
 
         System.out.print ("Enter amount of water in kg: ");
-        int waterMass = input.nextInt();
+        double waterMass = input.nextDouble();
 
         System.out.print ("Enter initial water temperature in Celsius: ");
-        int initialTemp = input.nextInt();
+        double initialTemp = input.nextDouble();
 
         System.out.print ("Enter final water temperature in Celsius: ");
-        int finalTemp = input.nextInt();
+        double finalTemp = input.nextDouble();
 
-        int Q;
+        double Q;
         Q = waterMass * (finalTemp - initialTemp) *4184;
 
         System.out.print ("The energy needed to heat " + waterMass + "kg of water from "

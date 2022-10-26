@@ -11,31 +11,31 @@ import javax.swing.*;
 public class FindTempAgain {
     public static void main(String[] args) {
 
-        int waterMass;
+        double waterMass;
         String massInput;
 
         massInput = JOptionPane.showInputDialog (null, "Enter amount of"
                 + " water in kg");
 
-        waterMass = Integer.parseInt(massInput);
+        waterMass = Double.parseDouble(massInput);
 
-        int initialTemp;
+        double initialTemp;
         String initialTempInput;
 
         initialTempInput = JOptionPane.showInputDialog ( null, "Enter "
                 +"initial water temperature in Celsius");
 
-        initialTemp = Integer.parseInt (initialTempInput);
+        initialTemp = Double.parseDouble (initialTempInput);
 
-        int finalTemp;
+        double finalTemp;
         String finalTempInput;
 
         finalTempInput = JOptionPane.showInputDialog ( null, "Enter "
                 +"final water temperature in Celsius");
 
-        finalTemp = Integer.parseInt (finalTempInput);
+        finalTemp = Double.parseDouble (finalTempInput);
 
-        int Q;
+        double Q;
         Q = waterMass * (finalTemp - initialTemp) * 4184;
 
         JOptionPane.showMessageDialog ( null, "The Energy needed to "
