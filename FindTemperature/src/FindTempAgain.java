@@ -1,3 +1,11 @@
+/*
+Amanda Sherman
+Bellevue University
+Module 2 Programming Assignment
+
+Version 2
+ */
+
 import javax.swing.*;
 
 public class FindTempAgain {
