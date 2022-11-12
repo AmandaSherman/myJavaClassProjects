@@ -7,14 +7,19 @@ Module 5 Assignment
 
 public class ThreetoNinetynine {
     public static void main(String[] args) {
+
         double answer = 0;
 
-//for loop (initial action; condition for loop; action-restart)
-        for (int num = 3; num <=99; num = num +2) {
-            answer += (1 / num);
+        for (double num = 3.0; num <=99; num += 2) {
+            answer += (1.0 / num);
         }
-            System.out.printf("%.4f\n", answer);
+        System.out.println(answer);
 
+        double answer2 = 0;
 
+        for (double num = 99.0; num >=3; num -= 2) {
+            answer2 += (1.0 / num);
+        }
+        System.out.print(answer2);
     }
 }
