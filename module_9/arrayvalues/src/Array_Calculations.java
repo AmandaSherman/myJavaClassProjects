@@ -53,8 +53,5 @@ public class Array_Calculations {
         System.out.println("The average of all the integers in the array is "+ average);
 
         System.out.println("The sum of all the integers in the array is "+ sum);
-
-
-
     }
 }
