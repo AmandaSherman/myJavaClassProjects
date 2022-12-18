@@ -23,10 +23,10 @@ public class PasswordChecker {
 
         if (valid_Password(password)) {
             System.out.println("Password is valid: " + password);
-        } else {
+        }
+        else {
             System.out.println("Not a valid password: " + password);
         }
-
     }
 
     public static boolean valid_Password(String password) {
@@ -46,7 +46,6 @@ public class PasswordChecker {
             else return false;
         }
 
-
         return (charcsCountUp >= 1 && charcsCountLow >= 1 && numCount >= 1);
     }
 
@@ -60,10 +59,8 @@ public class PasswordChecker {
         return (charcs >= 'a' && charcs <= 'z');
     }
 
-
     public static boolean is_Number(char charcs) {
 
         return (charcs >= '0' && charcs <= '9');
     }
-
 }
