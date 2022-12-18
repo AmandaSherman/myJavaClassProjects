@@ -38,7 +38,7 @@ public class BigandSmall {
         int [] result = {0, 0};
         int largest = arrayParam[0][0];
         for (int i = 0; i < arrayParam.length; i++) {
-            for (int j = 0; j < arrayParam.length[i]; j++) {
+            for (int j = 0; j < arrayParam[i].length; j++) {
                 if (arrayParam[i][j] > largest) {
                     largest = arrayParam[i][j];
                     result[0] = i;
